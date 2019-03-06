@@ -1,0 +1,1369 @@
+/* Reset CSS */
+
+/*
+YUI 3.18.1 (build f7e7bcb)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+body {
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    font-size: 13px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.85;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+.font_style_tt {
+    font-family: 'Old Standard TT', serif;
+}
+
+.font_style_playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+@media screen and (min-width: 769px) {
+
+    .is-pcview {
+        display: block!important;
+    }
+
+    .is-spview {
+        display: none!important;
+    }
+    
+    .fixed_nav_btn {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 100;
+    }
+
+    .fixed_nav {
+        display: none;
+        background: #fff;
+        width: 100%;
+        height: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+
+    .fixed_navList {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 150px;
+        margin: 44px 0 0 -75px;
+        text-align: center;
+        z-index: 50;
+    }
+
+    .fixed_navListItem {
+        margin: 0 0 15px;
+    }
+
+    .fixed_navListItem a {
+        font-size: 15px;
+    }
+
+    .fixed_navListTime {
+        font-size: 12px;
+        margin: 10px 0 10px;
+    }
+
+    .fixed_navListTimeTable {
+        font-size: 17px;
+        margin: 0 0 5px;
+    }
+
+    .fixed_navListMenu {
+        font-size: 10px;
+        margin: 0 0 13px;
+    }
+
+    .fixed_navListTel {
+        font-size: 17px;
+        margin: 0 0 8px;
+    }
+
+    .fixed_navListDay {
+        font-size: 12px;
+        margin: 0 0 12px;
+    }
+
+    .fixed_navLisInsta {
+
+    }
+
+    .section_top {
+        height: 900px;
+        background: url("../img/pc_section_bg_01.png") no-repeat center top;
+        background-size: cover;
+        margin: 0 0 100px;
+    }
+
+    .section_top_inner {
+        width: 1080px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .section_top_txt {
+        color: #fff;
+        padding: 17px 0;
+    }
+
+    .section_top_logo {
+        text-align: center;
+        margin: 0 0 50px;
+        padding: 265px 0 0;
+    }
+
+    .section_top_leadTxt {
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 0.2em;
+    }
+
+    .section_concept {
+        height: 1610px;
+        background: url("../img/pc_section_bg_02.png") no-repeat center top;
+        background-size: cover;
+    }
+
+    .section_concept_inner {
+        width: 1080px;
+        margin: 0 auto;
+        padding: 0 10px;
+        position: relative;
+    }
+
+    .section_concept_innerBox {
+        background: #fff;
+        padding: 90px 50px 90px 100px;
+        position: absolute;
+        top: 280px;
+        left: 116px;
+        width: 690px;
+        box-sizing: border-box;
+    }
+
+    .section_concept_innerBoxInner {
+        position: relative;
+    }
+
+    .section_concept_logo {
+        position: absolute;
+        top: -130px;
+        left: -100px;
+    }
+
+    .section_concept_txt {
+        font-size: 20px;
+        line-height: 2em;
+    }
+
+
+    .section_news {
+        margin: 20px auto 125px;
+    }
+
+    .section_news_inner {
+        width: 1080px;
+        margin: 0 auto;
+        padding: 0 10px;
+        position: relative;
+    }
+
+    .section_news_logo {
+        margin: 0 0 50px -15px;
+    }
+
+    .section_news_inner dl {
+        overflow: hidden;
+        border-top: 1px solid#dcdcdc;
+        padding: 30px 0;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .section_news_inner dl:last-child {
+        border-bottom: 1px solid#dcdcdc;
+    }
+
+    .section_news_title {
+        font-size: 20px;
+        width: 150px;
+    }
+
+    .section_news_detail {
+        font-size: 15px;
+        width: 925px;
+    }
+
+
+
+    .section_italian {
+        background: url("../img/pc_section_bg_03.png") no-repeat center top;
+    }
+
+    .section_italian_inner {
+        width: 1080px;
+        height: 720px;
+        margin: 0 auto;
+        padding: 0 10px;
+        position: relative;
+    }
+
+    .section_italian_logo {
+        text-align: center;
+        padding: 257px 0 0;
+    }
+
+    .italian_bg {
+        background: url("../img/pc_common_bg.png") repeat center top;
+    }
+
+    .section_italian_chef {
+        display: flex;
+        width: 1100px;
+        margin: 0 auto 40px;
+    }
+
+    .section_italian_chefImage {
+        margin: -23px auto 15px;
+    }
+
+    .section_italian_chefName {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .section_italian_chefLeadTxt {
+        font-size: 32px;
+        padding: 85px 0 45px 60px;
+    }
+
+    .section_italian_chefTxt {
+        font-size: 20px;
+        padding: 0 0 0 60px;
+        line-height: 2em;
+    }
+
+    .section_italian_image {
+        position: relative;
+        height: 470px;
+        margin: 0 0 50px;
+    }
+
+    .section_italian_image img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin: 0 0 0 -750px;
+    }
+
+    .section_italian_time {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 0 15px;
+    }
+
+    .section_italian_timeTable {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+
+    .section_italian_course {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 0 25px;
+    }
+
+    .section_italian_tel {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section_italian_courseTxt {
+        font-size: 20px;
+        margin: 0 0 50px;
+        padding: 0 0 95px;
+        text-align: center;
+    }
+
+    .section_cake {
+        background: url("../img/pc_cake_bg.png") repeat-x center top;
+        height: 1390px;
+    }
+
+    .section_cake_inner {
+        width: 1080px;
+        margin: 0 auto;
+        padding: 0 10px;
+        position: relative;
+    }
+
+    .section_cake_image_01 {
+        position: absolute;
+        top: 150px;
+        left: 246px;
+    }
+
+    .section_cake_image_02 {
+        position: absolute;
+        top: 150px;
+        left: 824px;
+    }
+
+    .section_cake_image_03 {
+        position: absolute;
+        top: 710px;
+        left: 610px;
+    }
+
+    .section_cake_chefImage {
+        position: absolute;
+        top: 77px;
+        left: -25px;
+    }
+
+    .section_cake_chefName {
+        position: absolute;
+        top: 109px;
+        left: 310px;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .section_takeout {
+        padding: 10px 0;
+        border: 1px solid #f9f1e4;
+        color: #f9f1e4;
+        font-size: 22px;
+        width: 187px;
+        box-sizing: border-box;
+        text-align: center;
+        position: absolute;
+        top: 538px;
+    }
+
+    .section_cake_logo {
+        position: absolute;
+        top: 625px;
+        left: 28px;
+    }
+
+    .section_cake_chef {
+        padding: 800px 0 0;
+        width: 550px;
+        color: #fff;
+    }
+
+    .section_cake_chefLeadTxt {
+        font-size: 32px;
+        padding: 0 0 45px 0;
+    }
+
+    .section_cake_chefTxt {
+        font-size: 20px;
+        line-height: 2em;
+    }
+
+    .section_cafe {
+        height: 1100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section_cafe_inner_01 {
+        background: url("../img/pc_cafe_bg.png") repeat-x center top;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0 100px 0 0;
+        position: relative;
+    }
+
+    .section_cafe_inner_02 {
+        background: url("../img/pc_bread_bg.png") repeat-x center top;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 0 0 0 100px;
+        position: relative;
+    }
+
+    .section_cafe_detail {
+        padding: 720px 0 0;
+    }
+
+    .section_cafe_takeout {
+        padding: 10px 0;
+        border: 1px solid #f9f1e4;
+        color: #f9f1e4;
+        font-size: 22px;
+        width: 187px;
+        box-sizing: border-box;
+        text-align: center;
+        position: absolute;
+        top: 525px;
+        left: 210px;
+    }
+
+    .section_cafe_txt {
+        color: #fff;
+        font-size: 20px;
+        width: 436px;
+        line-height: 2em;
+    }
+
+    .section_cafe_inner_01 .section_cafe_logo {
+        position: absolute;
+        top: 538px;
+        right: 253px;
+    }
+
+    .section_cafe_inner_02 .section_cafe_logo {
+        position: absolute;
+        top: 608px;
+        left: 217px;
+    }
+
+    .section_cafe_inner_01 .section_cafe_txt {
+        float: right;
+    }
+
+    .section_cafe_inner_02 .section_cafe_txt {
+        padding: 0 100px 0 0;
+    }
+
+    .section_gardening {
+        background: url("../img/pc_common_bg.png") repeat center top;
+        padding: 165px 0 200px;
+        text-align: center;
+    }
+
+    .section_gardening_logo {
+        text-align: center;
+        margin: 0 0 30px;
+    }
+
+    .section_gardening_bg {
+        background: url("../img/pc_gardening_bg.png") no-repeat center top;
+        height: 1300px;
+        padding: 58px 0 0;
+        box-sizing: border-box;
+    }
+
+    .section_gardening_catchcopy {
+        width: 422px;
+        border-top: 1px solid #aaa;
+        border-bottom: 1px solid #aaa;
+        font-size: 32px;
+        padding: 18px 0;
+        margin: 0 auto 25px;
+    }
+
+    .section_gardening_catchcopy_en {
+        font-size: 50px;
+        margin: 0 0 25px;
+    }
+
+    .section_gardening_tel {
+        font-size: 30px;
+    }
+
+    .section_gardening_txt {
+        font-size: 20px;
+        line-height: 2em;
+        margin: 0 auto 25px;
+    }
+
+    .section_introduction {
+        margin: 0 0 120px;
+        padding: 194px 0 0;
+    }
+
+    .section_introduction_logo {
+        margin: 0 0 70px;
+        text-align: center;
+    }
+
+    .section_introduction_bg {
+        background: url("../img/pc_introduction_bg_01.png") no-repeat center top;
+        height: 700px;
+        padding: 125px 0 0;
+        box-sizing: border-box;
+    }
+
+    .section_introduction_heading {
+        text-align: center;
+    }
+
+    .section_introduction_inner {
+        width: 1080px;
+        margin: -117px auto 0;
+        padding: 47px 0 0;
+        text-align: center;
+        height: 770px;
+        background: #fff url("../img/pc_introduction_bg_02.png") no-repeat center bottom;
+        box-sizing: border-box;
+    }
+
+    .section_introduction_time {
+        font-size: 20px;
+        margin: 0 0 5px;
+        line-height: 2em;
+    }
+
+    .section_introduction_timeTable {
+        font-size: 28px;
+        margin: 0 0 5px;
+    }
+
+    .section_introduction_course {
+        font-size: 18px;
+        margin: 0 0 30px;
+    }
+
+    .section_introduction_timeTxt {
+        font-size: 20px;
+        margin: 0 0 30px;
+        line-height: 1.8em;
+    }
+
+    .section_introduction_tel {
+        font-size: 24px;
+        padding: 47px 0 0;
+        position: relative;
+    }
+
+    .section_introduction_tel::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin: 0 0 0 -14px;
+        width: 28px;
+        height: 26px;
+        background: url("../img/pc_icon_star.png") no-repeat center top;
+    }
+
+    .section_introduction_tel span {
+        font-size: 30px;
+    }
+
+    .section_introduction_courseTxt {
+        line-height: 2em;
+        font-size: 20px;
+    }
+
+    .section_introduction_date {
+        font-size: 20px;
+    }
+
+    .section_introduction_date small {
+        font-size: 14px;
+    }
+
+    .section_access {
+        margin: 0 0 50px;
+        padding: 45px 0 0;
+    }
+
+    .section_access_logo {
+        text-align: center;
+        margin: 0 0 35px;
+    }
+
+    .section_access_txt {
+        font-size: 20px;
+        line-height: 1.8em;
+        text-align: center;
+        margin: 0 0 40px;
+    }
+
+    .section_access iframe {
+        width: 100%;
+        margin: 0 auto;
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+    }
+
+
+
+
+
+    .footer {
+        text-align: center;
+        padding: 0 0 20px;
+    }
+
+    .footer_navList {
+        width: 1080px;
+        margin: 0 auto 30px;
+    }
+
+    .footer_navListItem {
+        display: inline;
+    }
+
+    .footer_instagram {
+        text-align: center;
+        margin: 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .is-pcview {
+        display: none!important;
+    }
+
+    .is-spview {
+        display: block!important;
+    }
+
+    .fixed_nav_btn {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 100;
+    }
+
+    .fixed_nav {
+        display: none;
+        background: #fff;
+        width: 100%;
+        height: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 50;
+    }
+
+    .fixed_navList {
+        top: 0;
+        width: 100%;
+        margin: 44px auto 0;
+        text-align: center;
+        z-index: 50;
+    }
+
+    .fixed_navListItem {
+        margin: 0 0 20px;
+    }
+
+    .fixed_navListItem:first-child {
+        margin: 0 0 32px;
+    }
+
+    .fixed_navListItem:nth-child(13) {
+        margin: 0 0 40px;
+    }
+
+    .fixed_navListItem a {
+        font-size: 17px;
+    }
+
+    .fixed_navListTime {
+        font-size: 14px;
+        margin: 10px 0 10px;
+    }
+
+    .fixed_navListTimeTable {
+        font-size: 20px;
+        margin: 0 0 5px;
+    }
+
+    .fixed_navListMenu {
+        font-size: 12px;
+        margin: 0 0 15px;
+    }
+
+    .fixed_navListTel {
+        font-size: 20px;
+        margin: 0 0 8px;
+    }
+
+    .fixed_navListDay {
+        font-size: 14px;
+        margin: 0 0 20px;
+    }
+
+    .fixed_navListDay span {
+        font-size: 10px;
+    }
+
+
+    .fixed_navLisInsta {
+
+    }
+
+    .section_top {
+        height: 450px;
+        background: url("../img/sp_section_bg_01.png") no-repeat center top;
+        background-size: 100%;
+        margin: 0 0 45px;
+    }
+
+    .section_top_inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section_top_txt {
+        color: #fff;
+        padding: 17px 0;
+    }
+
+    .section_top_logo {
+        text-align: center;
+        margin: 0 0 25px;
+        padding: 130px 0 0;
+    }
+
+    .section_top_logo img {
+        width: 205.5px;
+        height: auto;
+    }
+
+    .section_top_leadTxt {
+        color: #fff;
+        text-align: center;
+        font-size: 3vw;
+        letter-spacing: 0.2em;
+    }
+
+    .section_concept {
+        padding: 58px 0 0;
+        box-sizing: border-box;
+        height: 575px;
+        background: url("../img/sp_section_bg_02.png") no-repeat center top;
+        background-size: 100%;
+    }
+
+    .section_concept_inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+        position: relative;
+    }
+
+    .section_concept_innerBox {
+        background: #fff;
+        padding: 65px 13px 50px 13px;
+        margin: 0 0 0 10%;
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .section_concept_innerBoxInner {
+        position: relative;
+    }
+
+    .section_concept_logo {
+        position: absolute;
+        top: -93px;
+        left: -14%;
+    }
+
+    .section_concept_logo img {
+        width: 173px;
+        height: auto;
+    }
+
+    .section_concept_txt {
+        font-size: 12px;
+        line-height: 2em;
+    }
+
+
+    .section_news {
+        margin: 50px auto 50px;
+        padding: 0 2%;
+    }
+
+    .section_news_inner {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .section_news_logo {
+        margin: 0 0 25px;
+    }
+
+    .section_news_logo img {
+        width: 85.5px;
+    }
+
+    .section_news_inner dl {
+        overflow: hidden;
+        border-top: 1px solid#dcdcdc;
+        padding: 15px 0;
+    }
+
+    .section_news_inner dl:last-child {
+        border-bottom: 1px solid#dcdcdc;
+    }
+
+    .section_news_title {
+        font-size: 4vw;
+        width: 100%;
+        margin: 0 0 10px;
+    }
+
+    .section_news_detail {
+        font-size: 3.4vw;
+        width: 100%;
+    }
+
+
+
+    .section_italian {
+    }
+
+    .section_italian_inner {
+        width: 100%;
+        height: 360px;
+        margin: 0 auto;
+        position: relative;
+        background: url("../img/sp_section_bg_03.png") no-repeat center top;
+        background-size: 100%;
+    }
+
+    .section_italian_logo {
+        text-align: center;
+        padding: 40% 0 0;
+    }
+
+    .section_italian_logo img {
+        width: 147.5px;
+        height: auto;
+    }
+
+    .italian_bg {
+        background: url("../img/pc_common_bg.png") repeat center top;
+        background-size: 50px 50px;
+    }
+
+    .section_italian_chef {
+        width: 100%;
+        margin: 0 auto 14px;
+    }
+
+    .section_italian_chefImage {
+        text-align: center;
+        margin: 0 auto 7px;
+    }
+
+    .section_italian_chefImage img {
+        width: 142.5px;
+        height: auto;
+        margin: -11.5px 0 0;
+        position: relative;
+        z-index: 10;
+    }
+
+    .section_italian_chefName {
+        font-size: 4vw;
+        text-align: center;
+        margin: 0 0 20px;
+    }
+
+    .section_italian_chefLeadTxt {
+        font-size: 4.9vw;
+        margin: 0 0 25px 0;
+        padding: 0 2%;
+    }
+
+    .section_italian_chefLeadTxt span {
+        display: block;
+    }
+
+    .section_italian_chefTxt {
+        font-size: 3.4vw;
+        padding: 0 0 12px;
+        line-height: 2em;
+        padding: 0 2%;
+    }
+
+    .section_italian_image {
+        position: relative;
+        margin: 0 0 40px;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+
+    .section_italian_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_italian_time {
+        font-size: 4vw;
+        text-align: center;
+        margin: 0 0 15px;
+    }
+
+    .section_italian_timeTable {
+        font-size: 4.3vw;
+        text-align: center;
+        margin: 0 0 10px;
+    }
+
+    .section_italian_course {
+        font-size: 3.2vw;
+        text-align: center;
+        margin: 0 0 25px;
+    }
+
+    .section_italian_tel {
+        font-size: 5.8vw;
+        text-align: center;
+    }
+
+    .section_italian_courseTxt {
+        font-size: 4vw;
+        margin: 0 0 50px;
+        padding: 0 0 40px;
+        text-align: center;
+    }
+
+    .section_cake {
+        background: url("../img/pc_cake_bg.png") repeat center top;
+    }
+
+    .section_cake_inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 75px 0 105px;
+        position: relative;
+    }
+
+    .section_cake_image_01 {
+        margin: 0 0 1px;
+        padding: 0 12%;
+        text-align: center;
+    }
+
+    .section_cake_image_01 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_cake_image_02 {
+        margin: 0 0 69px;
+        padding: 0 12%;
+        text-align: center;
+    }
+
+    .section_cake_image_02 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_cake_image_03 {
+        padding: 0 12%;
+        text-align: center;
+    }
+
+    .section_cake_image_03 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_cake_position {
+        position: relative;
+    }
+
+    .section_cake_chefImage {
+        text-align: center;
+        margin: -95px auto 7px;
+        padding: 0 10px;
+        width: 185px;
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        right: 0;
+    }
+
+    .section_cake_chefImage img {
+        width: 185px;
+        height: auto;
+    }
+
+    .section_cake_chefName {
+        font-size: 17px;
+        color: #fff;
+        width: 185px;
+        text-align: center;
+        position: absolute;
+        top: 105px;
+        right: 10px;
+    }
+
+    .section_takeout {
+        padding: 10px 0;
+        border: 1px solid #f9f1e4;
+        color: #f9f1e4;
+        font-size: 15px;
+        width: 130px;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 0 0 23px 10px;
+    }
+
+    .section_cake_logo {
+        margin: 0 0 28px 10px;
+        width: 130px;
+        text-align: center;
+    }
+
+    .section_cake_logo img {
+        width: 106px;
+    }
+
+    .section_cake_chef {
+        width: 100%;
+        color: #fff;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+
+    .section_cake_chefLeadTxt {
+        font-size: 5.3vw;
+        padding: 0 0 15px 0;
+    }
+
+    .section_cake_chefTxt {
+        font-size: 3.6vw;
+        line-height: 2em;
+        margin: 0 0 42px;
+    }
+
+    .section_cake_chefTxt span {
+        display: block;
+    }
+
+
+    .section_cafe {
+        height: 100%;
+    }
+
+    .section_cafe_inner_01 {
+        background: url("../img/sp_cafe_bg.png") repeat-x center top;
+        box-sizing: border-box;
+        position: relative;
+        background-size: cover;
+    }
+
+    .section_cafe_inner_02 {
+        background: url("../img/sp_bread_bg.png") repeat-x center top;
+        box-sizing: border-box;
+        position: relative;
+        background-size: cover;
+    }
+
+    .section_cafe_detail {
+        /* padding: 720px 0 0; */
+    }
+
+    .section_cafe_takeout {
+        padding: 10px 0;
+        border: 1px solid #f9f1e4;
+        color: #f9f1e4;
+        font-size: 15px;
+        width: 132px;
+        box-sizing: border-box;
+        text-align: center;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        margin: 0 0 0 -66px;
+    }
+
+    .section_cafe_txt {
+        color: #fff;
+        font-size: 14px;
+        line-height: 2em;
+        text-align: center;
+    }
+
+    .section_cafe_inner_01 .section_cafe_logo {
+        margin: 0 0 10%;
+        padding: 55% 0 0;
+        text-align: center;
+    }
+
+    .section_cafe_inner_01 .section_cafe_logo img {
+        width: 106.5px;
+        height: auto;
+    }
+
+    .section_cafe_inner_02 .section_cafe_logo {
+        margin: 0 0 10%;
+        padding: 55% 0 0;
+        text-align: center;
+    }
+
+    .section_cafe_inner_02 .section_cafe_logo img {
+        width: 106.5px;
+        height: auto;
+    }
+
+    .section_cafe_inner_01 .section_cafe_txt {
+        padding: 0 8% 10.8%;
+    }
+
+    .section_cafe_inner_01 .section_cafe_txt span {
+        display: block;
+    }
+
+    .section_cafe_inner_02 .section_cafe_txt {
+        padding: 0 8% 10.8%;
+    }
+
+    .section_cafe_inner_02 .section_cafe_txt span {
+        display: block;
+    }
+
+    .section_gardening {
+        background: url("../img/pc_common_bg.png") repeat center top;
+        padding: 80px 0 78px;
+        text-align: center;
+    }
+
+    .section_gardening_logo {
+        text-align: center;
+        margin: 0 0 45px;
+    }
+
+    .section_gardening_logo img {
+        width: 155.5px;
+        height: auto;
+    }
+
+    .section_gardening_bg {
+    }
+
+    .section_gardening_catchcopy {
+        border-top: 1px solid #aaa;
+        border-bottom: 1px solid #aaa;
+        font-size: 4vw;
+        padding: 8px 10px;
+        margin: 0 auto 25px;
+        display: inline-block;
+    }
+
+    .section_gardening_catchcopy_en {
+        font-size: 6vw;
+        margin: 0 0 25px;
+    }
+
+    .section_gardening_tel {
+        font-size: 15px;
+    }
+
+    .section_gardening_txt {
+        font-size: 2.4vw;
+        line-height: 2em;
+        margin: 0 auto 8px;
+    }
+
+    .section_gardening_image {
+        padding: 55px 0 0;
+    }
+
+    .section_gardening_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_introduction {
+        margin: 0 0 50px;
+        padding: 85px 0 0;
+    }
+
+    .section_introduction_logo {
+        margin: 0 0 28px;
+        text-align: center;
+    }
+
+    .section_introduction_logo img {
+        width: 246px;
+        height: auto;
+    }
+
+    .section_introduction_bg {
+        background: url("../img/sp_introduction_bg_01.png") no-repeat center top;
+        background-size: 100%;
+        padding: 15% 0 14%;
+        box-sizing: border-box;
+    }
+
+    .section_introduction_heading {
+        text-align: center;
+    }
+
+    .section_introduction_heading img {
+        width: 130px;
+        height: auto;
+    }
+
+    .section_introduction_inner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 47px 0 0;
+        text-align: center;
+        background: #fff url("../img/sp_introduction_bg_02.png") no-repeat center bottom;
+        box-sizing: border-box;
+    }
+
+    .section_introduction_time {
+        font-size: 16px;
+        margin: 0 0 5px;
+        line-height: 2em;
+    }
+
+    .section_introduction_timeTable {
+        font-size: 22px;
+        margin: 0 0 5px;
+    }
+
+    .section_introduction_course {
+        font-size: 18px;
+        margin: 0 0 30px;
+    }
+
+    .section_introduction_timeTxt {
+        font-size: 16px;
+        margin: 0 0 20px;
+        line-height: 1.8em;
+    }
+
+    .section_introduction_timeTxt span {
+        display: block;
+    }
+
+    .section_introduction_tel {
+        font-size: 24px;
+        padding: 47px 0 0;
+        position: relative;
+    }
+
+    .section_introduction_tel::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin: 0 0 0 -7px;
+        width: 23px;
+        height: 21px;
+        background: url("../img/sp_icon_star.png") no-repeat center top;
+        background-size: 22.5px 21px;
+    }
+
+    .section_introduction_tel span {
+        font-size: 24px;
+    }
+
+    .section_introduction_courseTxt {
+        line-height: 2em;
+        font-size: 16px;
+    }
+
+    .section_introduction_date {
+        font-size: 16px;
+    }
+
+    .section_introduction_date small {
+        font-size: 11px;
+    }
+
+    .section_introduction_image {
+        margin: 57px 0 0;
+    }
+
+    .section_introduction_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section_access {
+        margin: 0 0 25px;
+        padding: 100px 0 0;
+        background: #f3f3f3;
+    }
+
+    .section_access_logo {
+        text-align: center;
+        margin: 0 0 20px;
+    }
+
+    .section_access_logo img {
+        width: 141.5px;
+        height: auto;
+    }
+
+
+    .section_access_txt {
+        font-size: 3.4vw;
+        line-height: 1.8em;
+        text-align: center;
+        margin: 0 0 40px;
+    }
+
+    .section_access iframe {
+        width: 100%;
+        margin: 0 auto;
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+    }
+
+
+
+
+
+    .footer {
+        text-align: center;
+        padding: 0 0 20px;
+    }
+
+    .footer_navList {
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+
+    .footer_navListItem {
+        display: inline;
+    }
+
+    .footer_instagram {
+        text-align: center;
+        margin: 0 0 20px;
+    }
+
+    .footer_instagram img {
+        width: 22px;
+        height: auto;
+    }
+
+}
